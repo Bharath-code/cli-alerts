@@ -1,0 +1,38 @@
+{
+	"name": "cli-alerts-bharath",
+	"version": "1.0.0",
+	"description": "Cross platform CLI Alers with colors & colored symbols for success, inf, warning, error. Works on macOs, Linux, and windows.",
+	"main": "index.js",
+	"type": "module",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"**/*.{js,json}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Bharath-code/cli-alerts.git"
+	},
+	"keywords": [
+		"cli-alerts",
+		"Bharathkumar"
+	],
+	"author": {
+		"name": "Bharathkumar",
+		"email": "kumarbharath63@icloud.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Bharath-code/cli-alerts/issues"
+	},
+	"homepage": "https://github.com/Bharath-code/cli-alerts#readme",
+	"devDependencies": {
+		"prettier": "^2.8.8"
+	},
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"log-symbols": "^5.1.0"
+	}
+}

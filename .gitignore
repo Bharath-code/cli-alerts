@@ -1,0 +1,22 @@
+node_modules/
+/node_modules/
+
+# packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.map
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.env
